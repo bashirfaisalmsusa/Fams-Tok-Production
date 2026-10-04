@@ -1,0 +1,14 @@
+FAMSTOK GITHUB + RENDER
+
+UPLOAD THE CONTENTS OF THIS FOLDER DIRECTLY INTO THE ROOT OF YOUR GITHUB REPOSITORY.
+DO NOT upload this folder inside another folder.
+
+Root must contain:
+package.json
+server/package.json
+server/src/server.js
+web/index.html
+
+Render Build: npm install --prefix server
+Render Start: npm --prefix server start
+Root Directory: blank
