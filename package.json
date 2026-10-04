@@ -1,0 +1,13 @@
+{
+  "name": "famstok-platform",
+  "private": true,
+  "workspaces": [
+    "server"
+  ],
+  "scripts": {
+    "install:all": "npm install --prefix server",
+    "server": "npm --prefix server run dev",
+    "start": "npm --prefix server start",
+    "install:server": "npm install --prefix server"
+  }
+}

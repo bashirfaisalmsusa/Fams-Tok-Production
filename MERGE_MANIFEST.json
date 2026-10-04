@@ -1,0 +1,17 @@
+{
+  "name": "FamsTok Production Package",
+  "version": "1.0.0-merged",
+  "runtime_base": "FamsTok Production Launch Kit",
+  "integrated_sources": [
+    "FamsTok_Production_Launch_Kit.zip",
+    "FamsTok_Full_Platform_Complete.zip",
+    "FamsTok_Global_Architecture_Next.zip",
+    "FAMSTOK_COMPLETE_PROJECT_BLUEPRINT.zip"
+  ],
+  "notes": [
+    "The Production Launch Kit is the executable runtime base.",
+    "Global Architecture and Master Blueprint are included as implementation references.",
+    "The Full Platform Complete package is retained as a source snapshot and was not allowed to overwrite the launch runtime.",
+    "Production deployment still requires managed PostgreSQL, object storage/CDN, HTTPS, secrets, moderation, backups, and payment/live provider credentials."
+  ]
+}

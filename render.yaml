@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: famstok-api
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: npm install --prefix server
+    startCommand: npm --prefix server start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        sync: false
